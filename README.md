@@ -37,3 +37,35 @@ Uma API REST feita com **Java + Spring Boot**, que permite **cadastrar, listar, 
   "descricao": "Galaxy S21 com 128GB de memória",
   "preco": 2599.99
 }
+
+```
+🔹 Listar produtos (GET /produtos)
+Sem body.
+
+🔹 Buscar produto por ID (GET /produtos/{id})
+Exemplo: GET /produtos/1
+
+🔹 Atualizar produto (PUT /produtos/{id})
+Body (raw / JSON):**
+```json
+{
+  "nome": "Smartphone Samsung Atualizado",
+  "descricao": "Galaxy S21 Ultra",
+  "preco": 3199.99
+}
+```
+🔹 Deletar produto (DELETE /produtos/{id})
+Exemplo: DELETE /produtos/1
+
+🛠️ Como rodar o projeto
+Clone o repositório:**
+```json
+git clone https://github.com/seu-usuario/apiprodutos.git
+```
+Abra no IntelliJ ou VSCode com suporte a Java.
+
+Rode a aplicação pela classe:
+
+ApiprodutosApplication.java
+Acesse:
+http://localhost:8080/produtos
