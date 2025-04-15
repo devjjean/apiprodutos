@@ -60,7 +60,7 @@ Exemplo: DELETE /produtos/1
 🛠️ Como rodar o projeto
 Clone o repositório:
 ```json
-git clone https://github.com/seu-usuario/apiprodutos.git
+git clone https://github.com/devjjean/apiprodutos.git
 ```
 Abra no IntelliJ ou VSCode com suporte a Java.
 
