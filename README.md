@@ -46,7 +46,7 @@ Sem body.
 Exemplo: GET /produtos/1
 
 🔹 Atualizar produto (PUT /produtos/{id})
-Body (raw / JSON):**
+Body (raw / JSON):
 ```json
 {
   "nome": "Smartphone Samsung Atualizado",
@@ -58,7 +58,7 @@ Body (raw / JSON):**
 Exemplo: DELETE /produtos/1
 
 🛠️ Como rodar o projeto
-Clone o repositório:**
+Clone o repositório:
 ```json
 git clone https://github.com/seu-usuario/apiprodutos.git
 ```
